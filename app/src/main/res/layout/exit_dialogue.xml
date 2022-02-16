@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="24dp"
+    >
+
+    <TextView
+        android:id="@+id/dialogueHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Exit Confirmation"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/dialogueSubheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogueHeading"
+        android:layout_marginBottom="24dp"
+        android:text="Do you really want to exit?"
+        android:textColor="#AFAFAF" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialogueResponse1"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_below="@id/dialogueSubheading"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#5A34F3"
+        android:text="Yes"
+        android:textColor="#fff"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialogueResponse2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_below="@id/dialogueSubheading"
+        android:layout_toStartOf="@id/dialogueResponse1"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="No"
+        android:textColor="#fff"
+        />
+</RelativeLayout>

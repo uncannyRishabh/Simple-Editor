@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleApplication</string>
+    <string name="previewImage">PreviewImage</string>
+    <string name="take_selfie">TAKE SELFIE</string>
+    <string name="upload">UPLOAD</string>
+    <string name="imageToEdit">imageToEdit</string>
+
+    <string name="Undo">Undo</string>
+    <string name="Rotate">Rotate</string>
+    <string name="Crop">Crop</string>
+    <string name="Save">Save</string>
+</resources>
